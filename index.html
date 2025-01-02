@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalized Learning Pathway Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Services</a>
+            <a href="">Contact</a>
+        </nav>
+        <form action="#" class="search-bar">
+            <input type="text" placeholder="enter to search">
+            <button ><i class='bx bx-search bx-tada' ></i></button>
+        </form>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Personalized Learning Pathway Generator</h1>
+
+        <form id="learningForm">
+            <!-- General Information Section -->
+            <section class="form-section">
+                <h2>General Information</h2>
+                <label for="objective">Objective:</label>
+                <input type="text" id="objective" name="objective" placeholder="What do you want to achieve?" required>
+
+                <label for="timeframe">Timeframe:</label>
+                <input type="text" id="timeframe" name="timeframe" placeholder="How much time do you have?" required>
+            </section>
+
+            <!-- Learning Commitment Section -->
+            <section class="form-section">
+                <h2>Learning Commitment</h2>
+                <label for="dailyTime">Daily Time Commitment (in hours):</label>
+                <input type="number" id="dailyTime" name="dailyTime" min="0" step="0.1"
+                    placeholder="Enter hours per day" required>
+
+                <label for="flexibility">Flexibility (hours per week):</label>
+                <input type="number" id="flexibility" name="flexibility" min="0" step="1"
+                    placeholder="Hours you can adjust per week" required>
+            </section>
+
+            <!-- Knowledge & Skill Section -->
+            <section class="form-section">
+                <h2>Knowledge & Skills</h2>
+                <label for="currentKnowledge">Current Knowledge Assessment:</label>
+                <textarea id="currentKnowledge" name="currentKnowledge" rows="4"
+                    placeholder="Describe your current knowledge" required></textarea>
+
+                <label for="strengths">Strengths and Skills:</label>
+                <textarea id="strengths" name="strengths" rows="4" placeholder="List your strengths and skills"
+                    required></textarea>
+
+                <label for="weaknesses">Weaknesses and Challenges:</label>
+                <textarea id="weaknesses" name="weaknesses" rows="4"
+                    placeholder="Describe your weaknesses or challenges" required></textarea>
+            </section>
+
+            <!-- Goals & Motivation Section -->
+            <section class="form-section">
+                <h2>Goals & Motivation</h2>
+                <label for="milestones">Key Milestones or Goals:</label>
+                <textarea id="milestones" name="milestones" rows="4" placeholder="Enter your major milestones"
+                    required></textarea>
+
+                <label for="learningStyle">Preferred Learning Style:</label>
+                <input type="text" id="learningStyle" name="learningStyle"
+                    placeholder="What is your preferred learning style?" required>
+
+                <label for="motivation">Motivation Boosters:</label>
+                <textarea id="motivation" name="motivation" rows="4" placeholder="What keeps you motivated?"
+                    required></textarea>
+            </section>
+
+            <!-- Resources & Constraints Section -->
+            <section class="form-section">
+                <h2>Resources & Constraints</h2>
+                <label for="resources">Available Tools and Resources:</label>
+                <textarea id="resources" name="resources" rows="4" placeholder="What tools or resources do you have?"
+                    required></textarea>
+
+                <label for="constraints">Real-Life Constraints:</label>
+                <textarea id="constraints" name="constraints" rows="4"
+                    placeholder="What are your real-life constraints?" required></textarea>
+            </section>
+
+            <!-- Success Metrics & Inspirational Section -->
+            <section class="form-section">
+                <h2>Success & Inspirations</h2>
+                <label for="metrics">Success Metrics:</label>
+                <textarea id="metrics" name="metrics" rows="4" placeholder="How will you measure success?"
+                    required></textarea>
+
+                <label for="inspirations">Inspirational Figures or Case Studies:</label>
+                <input type="text" id="inspirations" name="inspirations"
+                    placeholder="Any figures or case studies that inspire you?" required>
+            </section>
+
+            <!-- Budget & Personal Challenges Section -->
+            <section class="form-section">
+                <h2>Budget & Challenges</h2>
+                <label for="budget">Budget (in USD):</label>
+                <input type="number" id="budget" name="budget" min="0" step="0.01" placeholder="Enter your budget"
+                    required>
+
+                <label for="challenges">Personal Challenges:</label>
+                <textarea id="challenges" name="challenges" rows="4"
+                    placeholder="List any personal challenges you might face" required></textarea>
+            </section>
+
+            <!-- <button type="submit">Generate Pathway</button> -->
+            <button type="submit" class="btn">submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+     <div class="footer">
+        <p>&copy; 2025 Learning Pathway. All rights reserved.</p>
+</div>
+
+     <script src="script.js"></script> 
+</body>
+
+</html>

@@ -1,0 +1,186 @@
+/* General Reset and Box Model */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Main Content Container */
+.container {
+    margin-top: 80px;
+    /* Space for fixed navbar */
+    padding: 40px;
+    background-color: rgb(33, 22, 22);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+/*search bar and header*/
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 12.5%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+body {
+    background-color: #020410;
+    background-image: url("tim-mossholder-2nZDK0_73EY-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar a {
+    position:relative;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-right: 30px;
+}
+.search-bar{
+    width:ius: 6px;
+    display: flex;
+    align-items: center;
+}
+.search-bar input{
+    width: 100%;
+    background:transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: black; 
+    padding-left: 10px;
+}
+.search-bar input::placeholder{
+    color: #fff; 250px;
+    height: 45px;
+    border-rad
+}
+.search-bar button{
+    width:100px;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.search-bar button i{
+    font-size: 22;
+    color: #fff;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+
+/* Form Section Styles */
+.form-section {
+    margin-bottom: 30px;
+    background-color: rgb(33, 22, 22);
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    color:#aaa;
+}
+
+.form-section h2 {
+    font-size: 1.5rem;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 1.1rem;
+    color: #555;
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Input Fields and Textarea */
+input,
+textarea {
+    width: 100%;
+    padding: 12px 18px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    background-color: #f9f9f9;
+    color: #555;
+    margin-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+    background-color: #f1f1f1;
+}
+
+/* Placeholder Styling */
+input::placeholder,
+textarea::placeholder {
+    color: #aaa;
+}
+
+/* Button Styling */
+button.btn{
+    background-color: #4CAF50;
+    display: inline;
+    text-align: center;
+    margin-top: 1px;
+    margin-left: 40%;
+    color: white;
+    font-size: 1rem;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #4CAF50;
+    color: white;
+    padding-bottom: 0%;
+    display: flex;
+    margin-bottom: 0;
+    padding: 20px;
+    text-align: center;
+    position: sta;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+.footer p {
+    margin: 0;
+    font-weight: 400;
+}
